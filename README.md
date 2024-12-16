@@ -15,5 +15,5 @@ Users should be able to:
 
 ### Links
 
-- View Solution [here](https://your-solution-url.com)
-- View Live Site: [ here](https://your-live-site-url.com)
+- View Solution [here](https://github.com/Ejiro-Frances/interactive-rating-component.git)
+- View Live Site: [ here](https://ejiro-frances.github.io/interactive-rating-component/)
