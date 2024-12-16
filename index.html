@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <main class="main">
+    <section class="container" id="rate-card">
+      <div class="star-div" aria-roledescription="A container holding the star.">
+      <img src="./images/icon-star.svg" alt="A star">
+     </div>
+
+     <section class="rating">
+<h1 class="rating-title">How did we do?</h1>
+<p class="rating-p">Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+</p>
+
+<fieldset class="rating-choice">
+  <!-- 1 -->
+   <input type="radio" name="num" id="num-1" value="1" onclick="updateCheckedCount(1)">
+   <label for="num-1">1</label>
+  <!-- 2 -->
+    <input type="radio" name="num" id="num-2" value="2" onclick="updateCheckedCount(2)">
+    <label for="num-2">2</label>
+  <!-- 3 -->
+    <input type="radio" name="num" id="num-3" value="3" onclick="updateCheckedCount(3)">
+    <label for="num-3">3</label>
+    <!-- 4 -->
+     <input type="radio" name="num" id="num-4" value="4" onclick="updateCheckedCount(4)">
+    <label for="num-4">4</label>
+    <!-- 5 -->
+     <input type="radio" name="num" id="num-5" value="5" onclick="updateCheckedCount(5)">
+    <label for="num-5">5</label>
+</fieldset>
+<button class="submit-btn">Submit</button>
+     </section>
+    </section>
+
+     <!-- Thank you state start -->
+
+    <section class="thank-you-card container hide" id="thank-you">
+      <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
+      <p class="select-p">You selected <span id="check-count"><!-- Add rating here --> </span> out of 5</p>
+      <h2 class="rating-title"> Thank you!</h2>
+      <p class="rating-p">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+</p>
+ <!-- Thank you state end -->
+
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.x.com/france_ssa">Ejiro Frances</a>.
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
